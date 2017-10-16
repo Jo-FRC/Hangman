@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-image: url("11383-3.jpg");
+}
+
+button {
+    width: auto;
+    height: auto;
+    font-size: 1.5em;
+    border-radius: 7px;
+    background:#4682B4;
+    cursor: pointer;
+    padding: 8px;
+    color: white;
+    font-family: Copperplate Gothic Light, sans-serif;
+    border: 2px black solid;
+    transition: background-color 0.6s ease;
+}
+
+button:hover {
+  background-color: #001f3f;
+}
+
+
+#start {
+    position: absolute;
+    top: 40%;
+    left: 47%;
+    z-index: 2;
+}
+
+#first {
+    background: #FFDC00;
+    z-index: 2;
+    height: 110%;
+    width: 100%;
+    position: absolute;
+
+}
+
+#guess {
+    position: absolute;
+    left: 90%;
+    bottom:90%;
+}
+
+p {
+    font-size: 1.5em;
+    font-family: Copperplate Gothic Light, sans-serif;
+}
+
+#bordo {
+    position: relative;
+    left: 15%;
+    top: -90px;
+    display: inline-block;;
+
+}
+
+.alphabet {
+    display: inline;
+
+}
+
+.letter {
+    width: auto;
+    height: auto;
+    font-size: 1.2em;
+    border-radius: 7px;
+    background:#4682B4;
+    cursor: pointer;
+    padding: 8px;
+    color: white;
+    font-family: Copperplate Gothic Light, sans-serif;
+    border: 2px black solid;
+    transition: background-color 0.6s ease;
+}
+
+.letter:hover {
+  background-color: #001f3f;
+}
+
+/*#canv {
+    position: relative;
+    left: -60px;
+    top: -80px;
+}*/
+
+#lines {
+position: relative;
+left: 45%;
+top: -400px;
+font-size: 2.5em;
+font-family: Copperplate Gothic Light, sans-serif;
+color: black;
+width: auto;
+}
+
+.BgColor {
+    background-color: #FFDC00;
+}
+
+#gameWin {
+    width: 350px;
+    height: 160px;
+    font-size: 1.5em;
+    border-radius: 7px;
+    background:#FFD700;
+    padding: 3px;
+    color: black;
+    font-family: Copperplate Gothic Light, sans-serif;
+    border: 2px black solid;
+    bottom: 60%;
+    left: 40%;
+    z-index: 1;
+    position: absolute;
+    display: none;
+}
+
+#gameLost {
+    width: 350px;
+    height: 160px;
+    font-size: 1.5em;
+    border-radius: 7px;
+    background:#8B0000;
+    padding: 3px;
+    color: white;
+    font-family: Copperplate Gothic Light, sans-serif;
+    border: 2px black solid;
+    bottom: 60%;
+    left: 40%;
+    z-index: 1;
+    position: absolute;
+    display: none;
+}
+
+#reset {
+    float: right;
+    margin-bottom: 30px;
+    background: #4682B4;
+    position: relative;
+    bottom: 20px;
+
+}
+
+#reset:hover {
+  background-color: #001f3f;
+}
+
+#reset2 {
+    float: right;
+    margin-bottom: 30px;
+    background: #4682B4;
+    position: relative;
+    bottom: 20px;
+
+}
+
+#reset2:hover {
+  background-color: #001f3f;
+}
+
+
+
+h1 {
+  color: #8B0000;
+  text-shadow: 0 0 5px rgba(0,0,0,0.5);
+  font-family: Copperplate Gothic Light, sans-serif;
+  text-transform: uppercase;
+  /*letter-spacing: 2px;*/
+  font-size: 2.7em;
+
+  position: absolute;
+  left: 55%;
+  top: 13%;
+  margin-left: -180px;
+}
+
+img {
+    position: absolute;
+    left: -60px;
+    top: -128px;
+}
+
+
+#canv {
+    position: relative;
+    left: -60px;
+    top: -10px;
+}
